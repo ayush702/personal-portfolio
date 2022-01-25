@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Vujahday+Script&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    font-family: cursive;
+    
+    height:  40vh;
+    width: 70vw;
+    margin: 13rem 3rem auto;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.myinfo{
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.mypic img{
+
+position: relative;
+left: 5rem;
+top: -2rem;
+ height: 45vh;   
+ border-radius: 2rem;
+}
+
+
+.sidebar{
+    background-color: burlywood;
+    /* width: 16.5vw;  */
+    width: 12%;
+    font-family: 'Licorice', cursive;
+    font-size: 1.6em;
+    height: 100vh;
+    text-align: -moz-left;
+    
+}
+.sidebar nav ul li{
+    list-style: none;
+    padding: 2rem 0rem;
+}
+
+.sidebar nav ul li a:hover{
+   
+background-color: black;
+ 
+
+    box-shadow: 0px 0px 15px black;
+    border-radius: 1rem;
+
+    color: white;
+    padding: 0rem 0.8rem;
+
+}
+
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    padding: 8rem 0px ;
+    padding-left: 1.3rem;
+}
+
+
+/* .main{
+    width: 88vw;
+    font-size: 2rem;
+    
+} */
+
+.hello{
+    
+    font-size: 4rem;
+    font-family: 'Licorice', cursive;
+    padding: 0.5rem;
+    font-weight: 500;
+    
+}
+.name{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 0.5rem;
+
+}
+.about{
+    font-size: 2rem;
+    font-family: 'Licorice', cursive;
+
+    font-style: italic;
+    text-decoration:underline;
+    padding: 0.5rem;
+
+
+}
+
+span{
+    position: relative;
+    left: 21.5rem;
+    bottom: 3.3rem;
+    font-size: 2rem;
+}
+
+.moreabout{
+    position: relative;
+    bottom: 2.5rem;
+
+    font-family: 'Licorice', cursive;
+
+    font-size: 2rem;
+
+    font-family: 'Vujahday Script', cursive;
+    padding: 0.5rem;
+
+}
+
+.buttons{
+    position: relative;
+
+    bottom: 1.5rem;
+    
+}
+.buttons button:hover{
+    background-color: lawngreen;
+    color: black;
+    border: none;
+}
+
+button{
+    font-family:  cursive;
+
+    padding: 0.4rem 0.9rem;
+    margin: 0px 0.5rem;
+
+    color: lavenderblush;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0.79rem;
+    background-color: rgb(28, 45, 46);
+    box-shadow: 0px 0px 10px grey;
+    cursor: pointer;
+    border: none;
+}
+
+/* **************************************** styling for contact page ********************************************* */
+
+
+
+
+
+.contactform{
+
+    font-family: cursive;
+    /* padding-top:7rem ; */
+    
+}
+.contactform form{
+    padding: 1.5rem 7rem ;
+}
+.contactform form div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+.contactform h1{ 
+
+    font-family: 'Vujahday Script', cursive;
+    margin-left: 21rem;
+    margin-top: 5rem;
+    text-decoration: underline;
+}
+
+#emailhelp{
+    margin-left: -0.5rem;
+    margin-top: 1rem;font-weight: bold;
+}
+
+.contactform button:hover{
+    background-color: rgb(9, 129, 177);
+    color: blanchedalmond;
+    box-shadow: 0px 0px 13px black;
+    border: none;
+}
+
+.contactform button{
+    border: none;
+}
+.form-control{
+    margin: 5px;
+    padding: 6px;
+    width: 15vw;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.form-check-label{
+    position: relative;
+    margin-left: 2rem;
+}
+
+.form-check-input{
+ position: relative;
+ margin-left: -36rem;
+ top: 1.2rem;
+}
+
+#clientproject{
+
+    height: 5rem;
+    width: 20rem;
+}
+
+
+
+/* *********************************** styling for education page ****************************************************** */
+.edu{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: -moz-available;
+    color: rgb(249, 255, 255);
+}
+
+.edu h3{
+    font-size: 2rem;
+    font-family: Vujahday Script;
+    margin-top: 6rem;
+    text-decoration: underline;
+    margin-left: 8rem;
+}
+
+.edu p{
+    margin-left: 8rem;
+    margin-top: 2rem;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+/* *****************************************************************  myintro ************************************************************ */
+
+.myintro{
+    width: -moz-available;
+   /* background-color: darkgrey; */
+   background-image: linear-gradient(rgb(231, 127, 127), rgb(108, 223, 238));
+
+}
+
+
+h2{
+    margin: 40px;
+    font-family: cursive;
+    font-size: 50px;
+    /* color: rgb(129, 98, 87); */
+
+    
+
+}
+
+.content{
+    margin: 65px;
+}
+
+h4{
+    /* padding: 20px; */
+    font-family: cursive;
+    font: italic;
+    font-size: 25px;
+    word-spacing: 20px;
+}
+
